@@ -5,6 +5,7 @@ body {
   color: #ffffff;
 }
 
+/* Header */
 header {
   background-color: #f4efe4;
   text-align: center;
@@ -17,13 +18,14 @@ header img {
   margin: 0 auto 10px;
 }
 
-h1 {
+header h1 {
   margin: 0;
   letter-spacing: 4px;
   color: #2f4f4f;
   font-size: 1.6em;
 }
 
+/* Navigation */
 nav {
   margin: 30px 0;
 }
@@ -40,12 +42,14 @@ nav li {
 nav a {
   color: #00ffff;
   font-weight: bold;
+  text-decoration: none;
 }
 
 nav a:hover {
   color: #ffa500;
 }
 
+/* Main content */
 main {
   width: 70%;
   margin: 40px auto;
@@ -60,4 +64,3 @@ h2 {
 p {
   line-height: 1.6;
 }
-
