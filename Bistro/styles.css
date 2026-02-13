@@ -1,27 +1,27 @@
 body {
     margin: 0;
     font-family: Georgia, serif;
-    background-color: #2f5753;
+    background-color: #355e5a;   /* deep green */
     color: white;
     text-align: center;
 }
 
 /* Header */
 header {
-    background-color: #d6d1c6;
+    background-color: #d6d1c6;  /* beige */
     padding: 40px 0;
 }
 
 .logo {
-    width: 120px;
+    width: 130px;
     display: block;
     margin: 0 auto 15px;
 }
 
 header h1 {
-    letter-spacing: 6px;
-    color: #2f5753;
     margin: 0;
+    letter-spacing: 6px;
+    color: #355e5a;  /* same green as background */
 }
 
 /* Navigation */
@@ -39,19 +39,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #aee7ff;
+    color: #aee7ff;  /* light blue like screenshot */
     text-decoration: underline;
     font-weight: bold;
 }
 
-/* Main Content */
+/* Main content */
 main {
-    max-width: 800px;
+    max-width: 750px;
     margin: 60px auto;
 }
 
 h2 {
-    color: #ffb21c;
+    color: #ffb11b;  /* gold/orange heading */
     margin-top: 40px;
 }
 
