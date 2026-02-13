@@ -1,52 +1,38 @@
 body {
-  margin: 0;
-  font-family: 1em/1.5em Georgia, serif;
-  background-color: #f2f4f4;
-  color: #000;
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Main image */
-img {
-  width: 100%;
-  display: block;
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
 }
 
-/* Main content area */
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
 main {
-  width: 70%;
-  margin: 40px auto;
+    width: 70%;
+    margin: 40px auto;
 }
 
-/* Main heading */
 h1 {
-  font: italic bold 2rem Georgia, serif;
-  color: darkolivegreen;
-  margin-top: 2rem;
+    font-style: italic;
+    color: darkolivegreen;
 }
 
-/* Section headings */
 h2 {
-  font-size: 1.25em;
-  margin-top: 2rem;
-}
-
-/* Paragraph spacing */
-p {
-  line-height: 1.6;
-}
-
-/* Lists */
-ul {
-  margin-bottom: 1.5rem;
-}
-
-/* Footer section */
-hr {
-  margin: 2rem 0;
+    margin-top: 30px;
 }
 
 .icon {
-  width: 40px;
-  vertical-align: middle;
-  margin-right: 10px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
 }
+
