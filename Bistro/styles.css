@@ -4,13 +4,13 @@ body {
     font-family: Georgia, serif;
     background-color: #355e5a;
     color: white;
-    text-align: center;
 }
 
 /* HEADER */
 header {
     background-color: #d6d1c6;
     padding: 40px 0;
+    text-align: center;
 }
 
 .logo {
@@ -25,18 +25,19 @@ header h1 {
     color: #355e5a;
 }
 
-/* NAVIGATION */
+/* NAVIGATION - LEFT SIDE */
 nav {
-    margin: 20px 0;
+    padding: 20px 40px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: disc;
+    padding-left: 40px;
+    margin: 0;
 }
 
 nav ul li {
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 nav ul li a {
@@ -48,8 +49,8 @@ nav ul li a {
 /* MAIN CONTENT */
 main {
     max-width: 750px;
-    margin: 60px auto;
-    padding: 0 20px;
+    margin: 40px auto;
+    text-align: center;
 }
 
 h2 {
@@ -65,6 +66,6 @@ p {
 footer {
     margin-top: 60px;
     padding: 20px 0;
+    text-align: center;
     font-size: 14px;
-    opacity: 0.8;
 }
