@@ -1,43 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Our Chef | Black Goose Bistro</title>
-  <link rel="stylesheet" href="../styles.css">
-</head>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1ea;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
-<body>
+header {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
-<header>
-  <img src="../images/logo.png" alt="Black Goose Logo">
-  <h1>Black Goose Bistro</h1>
-</header>
+header h1 {
+    margin: 10px 0;
+}
 
-<nav>
-  <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="recipes/tapenade.html">Menu</a></li>
-    <li><a href="../bistronews.html">News</a></li>
-    <li><a href="jenshome.html">Our Chef</a></li>
-    <li><a href="../contact.html">Contact</a></li>
-  </ul>
-</nav>
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-<main>
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
 
-  <h2>Meet Chef Jen</h2>
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-  <p>
-    Chef Jen brings over 15 years of culinary experience to Black Goose Bistro. 
-    Her passion is creating fresh, seasonal dishes that bring people together.
-  </p>
+nav ul li a:hover {
+    color: #f4c542;
+}
 
-  <p>
-    From handcrafted appetizers to perfectly prepared entrées, Chef Jen believes 
-    every plate should tell a story.
-  </p>
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
 
-</main>
+h2 {
+    color: #b22222;
+}
 
-</body>
-</html>
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    margin-top: 40px;
+}
