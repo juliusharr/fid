@@ -27,7 +27,6 @@ header h1 {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     margin: 0;
-    letter-spacing: 1px;
 }
 
 section {
@@ -39,19 +38,23 @@ section {
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-h2 {
-    font-weight: 600;
-    border-bottom: 2px solid white;
-    padding-bottom: 10px;
+.bio-box {
+    background: rgba(255,255,255,0.15);
+    padding: 25px;
+    border-radius: 12px;
 }
 
-h3 {
-    font-weight: 600;
-    margin-top: 30px;
+h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
 }
 
 p {
     line-height: 1.6;
+}
+
+ul, ol {
+    line-height: 1.8;
 }
 
 a {
@@ -62,10 +65,6 @@ a {
 
 a:hover {
     color: #cfd8ff;
-}
-
-ul, ol {
-    line-height: 1.8;
 }
 
 img {
@@ -80,10 +79,6 @@ img:hover {
     transform: scale(1.05);
 }
 
-strong {
-    font-weight: 600;
-}
-
 </style>
 </head>
 
@@ -94,16 +89,19 @@ strong {
 </header>
 
 <section>
-<h2>Welcome</h2>
+<h2>Short Bio</h2>
 
+<div class="bio-box">
 <p>
 <strong>Hello and welcome to my web presence page.</strong> My name is Julius Harris and I am currently a Digital Media student at Seminole State College. I am passionate about animation, web design, and interactive media. My goal is to become a professional animator and eventually create my own animated series. I enjoy building characters, designing worlds, and learning new creative software. This semester I am focused on improving my HTML, CSS, and game development skills.<br>
 I am always looking for ways to grow both creatively and technically. Thank you for visiting my page and learning more about me.
 </p>
+</div>
 </section>
 
 <section>
-<h2>Skills</h2>
+<h2>Skills (Unordered List)</h2>
+
 <ul>
 <li>HTML</li>
 <li>CSS</li>
@@ -116,11 +114,13 @@ I am always looking for ways to grow both creatively and technically. Thank you 
 <li>Web Design</li>
 <li>Digital Illustration</li>
 </ul>
+
 </section>
 
 <section>
-<h2>Software and Hardware</h2>
-<ul>
+<h2>Software and Hardware (Ordered List)</h2>
+
+<ol>
 <li>Visual Studio Code</li>
 <li>Unity Game Engine</li>
 <li>Moho 14</li>
@@ -128,23 +128,29 @@ I am always looking for ways to grow both creatively and technically. Thank you 
 <li>Maya</li>
 <li>Adobe Photoshop</li>
 <li>Mac Mini</li>
-</ul>
+</ol>
+
 </section>
 
 <section>
-<h2>Social Media and Web</h2>
-<ol>
+<h2>Social Media and Web Links</h2>
+
+<p>You can view my professional work at:</p>
+
+<ul>
 <li>
 <a href="https://github.com/juliusharr" target="_blank">
 GitHub Portfolio
 </a>
 </li>
+
 <li>
 <a href="https://www.youtube.com/@HappyArtAnimation" target="_blank">
 YouTube Channel
 </a>
 </li>
-</ol>
+</ul>
+
 </section>
 
 <section>
