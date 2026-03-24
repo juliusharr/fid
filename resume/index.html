@@ -35,11 +35,7 @@ section {
     padding: 35px;
     background: rgba(255,255,255,0.08);
     border-radius: 15px;
-}
-
-h2 {
-    border-bottom: 2px solid white;
-    padding-bottom: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .bio-box {
@@ -48,19 +44,43 @@ h2 {
     border-radius: 12px;
 }
 
-/* THUMBNAIL STYLES */
+h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul, ol {
+    line-height: 1.8;
+}
+
+a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cfd8ff;
+}
+
+/* ✅ THUMBNAIL GALLERY */
 .gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-top: 20px;
 }
 
 .gallery a img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.3s;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
 }
 
 .gallery a img:hover {
@@ -76,22 +96,75 @@ h2 {
 <h1>Julius Harris</h1>
 </header>
 
+<!-- ✅ WELCOME -->
 <section>
-<h2>Short Bio</h2>
+<h2>Welcome</h2>
+
 <div class="bio-box">
 <p>
-Hello, my name is Julius Harris and I am a Digital Media student at Seminole State College. I enjoy animation, web design, and creating interactive experiences. My goal is to become a professional animator and create my own animated series.
+Hello and welcome to my web presence page. My name is Julius Harris and I am currently a Digital Media student at Seminole State College. I am passionate about animation, web design, and interactive media. My goal is to become a professional animator and eventually create my own animated series. I enjoy building characters, designing worlds, and learning new creative software. This semester I am focused on improving my HTML, CSS, and game development skills. I am always looking for ways to grow both creatively and technically. Thank you for visiting my page and learning more about me.
 </p>
 </div>
 </section>
 
+<!-- ✅ SKILLS -->
 <section>
-<h2>Work Samples (Thumbnail Gallery)</h2>
+<h2>Skills</h2>
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript Basics</li>
+<li>Unity Game Development</li>
+<li>2D Animation</li>
+<li>Character Design</li>
+<li>Storyboarding</li>
+<li>GitHub</li>
+<li>Web Design</li>
+<li>Digital Illustration</li>
+</ul>
+
+</section>
+
+<!-- ✅ SOFTWARE -->
+<section>
+<h2>Software and Hardware</h2>
+
+<ul>
+<li>Visual Studio Code</li>
+<li>Unity Game Engine</li>
+<li>Moho 14</li>
+<li>Toon Boom Harmony</li>
+<li>Maya</li>
+<li>Adobe Photoshop</li>
+<li>Mac Mini</li>
+</ul>
+
+</section>
+
+<!-- ✅ SOCIAL -->
+<section>
+<h2>Social Media and Web</h2>
+
+<ol>
+<li>
+<a href="https://github.com/juliusharr" target="_blank">GitHub Portfolio</a>
+</li>
+
+<li>
+<a href="https://www.youtube.com/@HappyArtAnimation" target="_blank">YouTube Channel</a>
+</li>
+</ol>
+
+</section>
+
+<section>
+<h2>Work Samples</h2>
 
 <div class="gallery">
 
 <a href="3d.html">
-<img src="images/3dnv.jpg" alt="3D Environment">
+<img src="images/3dnv.jpg" alt="3D Project">
 </a>
 
 <a href="game1.html">
