@@ -13,7 +13,7 @@
 
 <form action="http://www.blackgoosebistro.com/pizza.php" method="post">
 
-<!-- 9-4 FIELDSET + LABELS -->
+<!-- CUSTOMER INFO -->
 <fieldset>
 <legend>Your Information</legend>
 
@@ -36,71 +36,40 @@
 
 <br>
 
-<!-- 9-4 FIELDSET GROUP -->
+<!-- PIZZA OPTIONS -->
 <fieldset>
 <legend>Design Your Dream Pizza</legend>
 
-<!-- 9-2 RADIO BUTTONS -->
+<!-- CRUST -->
 <fieldset>
 <legend>Crust (Choose one)</legend>
 
-<label>
-<input type="radio" name="crust" value="white"> Classic white
-</label><br>
-
-<label>
-<input type="radio" name="crust" value="multigrain"> Multigrain
-</label><br>
-
-<label>
-<input type="radio" name="crust" value="cheese"> Cheese-stuffed crust
-</label><br>
-
-<label>
-<input type="radio" name="crust" value="glutenfree"> Gluten-free
-</label>
+<label><input type="radio" name="crust" value="white"> Classic white</label><br>
+<label><input type="radio" name="crust" value="multigrain"> Multigrain</label><br>
+<label><input type="radio" name="crust" value="cheese"> Cheese-stuffed crust</label><br>
+<label><input type="radio" name="crust" value="glutenfree"> Gluten-free</label>
 
 </fieldset>
 
 <br>
 
-<!-- 9-2 CHECKBOXES -->
+<!-- TOPPINGS -->
 <fieldset>
 <legend>Toppings (Choose as many as you want)</legend>
 
-<label>
-<input type="checkbox" name="toppings[]" value="redsauce" checked> Red sauce
-</label><br>
-
-<label>
-<input type="checkbox" name="toppings[]" value="whitesauce"> White sauce
-</label><br>
-
-<label>
-<input type="checkbox" name="toppings[]" value="mozzarella"> Mozzarella cheese
-</label><br>
-
-<label>
-<input type="checkbox" name="toppings[]" value="pepperoni"> Pepperoni
-</label><br>
-
-<label>
-<input type="checkbox" name="toppings[]" value="mushrooms"> Mushrooms
-</label><br>
-
-<label>
-<input type="checkbox" name="toppings[]" value="peppers"> Peppers
-</label><br>
-
-<label>
-<input type="checkbox" name="toppings[]" value="anchovies"> Anchovies
-</label>
+<label><input type="checkbox" name="toppings[]" value="redsauce" checked> Red sauce</label><br>
+<label><input type="checkbox" name="toppings[]" value="whitesauce"> White sauce</label><br>
+<label><input type="checkbox" name="toppings[]" value="mozzarella"> Mozzarella cheese</label><br>
+<label><input type="checkbox" name="toppings[]" value="pepperoni"> Pepperoni</label><br>
+<label><input type="checkbox" name="toppings[]" value="mushrooms"> Mushrooms</label><br>
+<label><input type="checkbox" name="toppings[]" value="peppers"> Peppers</label><br>
+<label><input type="checkbox" name="toppings[]" value="anchovies"> Anchovies</label>
 
 </fieldset>
 
 <br>
 
-<!-- 9-3 DROPDOWN MENU -->
+<!-- NUMBER OF PIZZAS -->
 <label for="pizzas">Number of pizzas:</label>
 <select name="pizzas" id="pizzas">
 <option value="1">1</option>
@@ -115,8 +84,8 @@
 
 <br>
 
-<!-- SUBMIT BUTTON (9-1 requirement) -->
-<input type="submit" value="Bring me a pizza!">
+<!-- 🔥 YOUR IMAGE BUTTON -->
+<input type="image" src="images/IMG_0811.png" alt="Order Pizza">
 
 </form>
 
