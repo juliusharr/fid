@@ -5,33 +5,32 @@ body {
   background-color: #cdd78e;
 }
 
-/* main content box */
+/* main centered box */
 #container {
   width: 900px;
-  margin: 0 auto;
+  margin: 40px auto;
   background-color: #f5f5e6;
   padding: 40px;
 }
 
-/* headings */
-h1 {
+/* header styling */
+header {
   text-align: center;
+}
+
+/* title */
+h1 {
   color: #7a2c8f;
 }
 
+/* section titles */
 h2 {
   text-align: center;
   letter-spacing: 4px;
   color: #d2691e;
 }
 
-/* center top info */
-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-/* menu links */
+/* nav links */
 nav {
   text-align: center;
   margin: 20px 0;
