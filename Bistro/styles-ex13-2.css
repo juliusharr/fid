@@ -13,12 +13,12 @@ header {
     margin: 40px auto;
     padding: 30px;
 
-    background: transparent;
+    background: none;
 
     background-image: url("images/gooseshadow.png"), url("images/blackgoose.png");
     background-repeat: no-repeat, no-repeat;
-    background-position: center, left 40px center;
-    background-size: 300px, 90px;
+    background-position: center, left 0 bottom 0;
+    background-size: 300px, 80px;
 }
 
 h1 {
