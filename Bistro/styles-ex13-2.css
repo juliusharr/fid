@@ -3,6 +3,6 @@ body {
   font-family: Georgia, serif;
   line-height: 1.75;
 
-  background-color: #cdd7ae; /* light green */
-  background-image: url("images/bullseye.png"); /* THIS is the circles */
+  background-color: #cdd78e;
+  background-image: url("images/bullseye.png");
 }
