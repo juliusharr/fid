@@ -12,7 +12,8 @@ header {
     width: 800px;
     margin: 40px auto;
     padding: 30px;
-    background-color: rgba(255,255,255,0.7);
+
+    background: transparent;
 
     background-image: url("images/gooseshadow.png"), url("images/blackgoose.png");
     background-repeat: no-repeat, no-repeat;
