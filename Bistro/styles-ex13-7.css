@@ -1,17 +1,6 @@
 body {
-  font-family: Georgia, serif;
-  margin: 0 15%;
-  background-color: #cdd7ae;
-}
-
-header {
-  padding: 3em 1em 2em;
-  text-align: center;
-
-  background-image: url(images/blackgoose.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-
-  background-color: rgba(255,255,255,.5);
+  background-color: #cdd78e;
+  background-image: url("images/purpledot.png"), url("images/purpledot.png");
+  background-repeat: repeat-y, repeat-y;
+  background-position: left top, right top;
 }
