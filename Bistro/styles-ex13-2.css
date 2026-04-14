@@ -7,15 +7,14 @@ header {
     text-align: center;
     padding: 25px;
 
-    /* 🔥 MULTIPLE BACKGROUNDS */
+    /* TWO BACKGROUNDS */
     background-image: url("images/gooseshadow.png"), url("images/blackgoose.png");
 
-    /* IMPORTANT: order matters */
     background-repeat: no-repeat, no-repeat;
 
-    /* 🔥 FIXED POSITIONS */
-    background-position: left bottom, center;
+    /* ✅ THIS IS THE FIX */
+    background-position: left 20px bottom 20px, center;
 
-    /* 🔥 FIXED SIZES */
-    background-size: 80px, 250px;
+    /* size of images */
+    background-size: 80px, 300px;
 }
