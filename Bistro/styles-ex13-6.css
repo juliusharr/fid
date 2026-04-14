@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, serif;
-  margin: 0 15% 0;
+  margin: 0 15%;
   background-color: #cdd7ae;
 }
 
@@ -10,5 +10,5 @@ header {
 
   background-image: url(images/purpledot.png);
   background-repeat: repeat-x;
-  background-color: rgba(255 255 255 / .5);
+  background-color: rgba(255,255,255,.5);
 }
