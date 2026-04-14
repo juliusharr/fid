@@ -1,0 +1,8 @@
+body {
+  background-color: #cdd7ae;
+  background-image: url(images/bullseye.png);
+  background-repeat: repeat-y;
+}
+
+h1 { color: #993399; }
+h2 { color: hsl(299, 65%, 30%); }
