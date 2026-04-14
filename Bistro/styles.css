@@ -1,42 +1,22 @@
-html {
-  font-size: 100%;
-}
-
 body {
-  margin: 0;
   font-family: Georgia, serif;
   line-height: 1.75;
-  background-color: #ffffff;
-  color: #000000;
 }
 
 h1 {
   font: 400 2.5rem "Julius Sans One", Verdana, sans-serif;
-  color: olive;
-  text-shadow: .1em .1em .05em gainsboro;
-  margin: 20px 0;
-}
-
-h1, h2, #info {
-  text-align: center;
 }
 
 h2 {
   font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  color: cadetblue;
-  margin-top: 40px;
-}
-
-h2 + p {
-  text-align: center;
-  font-style: italic;
 }
 
 dt {
   font-weight: bold;
-  color: olivedrab;
+}
+
+strong {
+  font-style: italic;
 }
 
 dt strong {
@@ -61,7 +41,7 @@ dt strong {
   font-style: normal;
 }
 
-p.warning {
+p.warning, sup {
   font-size: small;
   color: tomato;
 }
