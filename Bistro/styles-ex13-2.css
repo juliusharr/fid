@@ -1,9 +1,9 @@
 body {
     margin: 0;
     font-family: Georgia, serif;
-
     background-color: #c4cf9a;
 
+    /* PERFECT RING PATTERN (matches book) */
     background-image:
         radial-gradient(circle,
             rgba(255,255,255,0.25) 10%, transparent 11%,
@@ -22,29 +22,27 @@ body {
     background-position: 0 0, 100px 100px;
 }
 
-/* HEADER */
+/* HEADER BOX */
 header {
     width: 700px;
     margin: 40px auto;
     padding: 40px;
     text-align: center;
 
+    /* transparent white box */
     background-color: rgba(255,255,255,0.6);
 
-    background-image: url("goose.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 300px;
+    position: relative;
 }
 
-/* SMALL GOOSE */
+/* SMALL GOOSE (LEFT) */
 header::before {
     content: "";
     position: absolute;
     width: 80px;
     height: 80px;
 
-    background-image: url("goose.png");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Silhouette_of_goose.svg/512px-Silhouette_of_goose.svg.png");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -52,7 +50,24 @@ header::before {
     top: 20px;
 }
 
-/* TEXT */
+/* BIG FADED GOOSE (CENTER) */
+header::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Silhouette_of_goose.svg/512px-Silhouette_of_goose.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    opacity: 0.1;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 h1 {
     color: purple;
 }
