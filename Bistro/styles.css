@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
   <title>Black Goose Bistro</title>
 
@@ -75,4 +78,25 @@
       color: tomato;
     }
   </style>
+
 </head>
+
+<body>
+
+  <h1>Black Goose Bistro</h1>
+
+  <div id="info">
+    <p>Baker's Corner, Seekonk, Massachusetts</p>
+  </div>
+
+  <h2>Appetizers</h2>
+  <p>This season, we explore the spicy flavors of the southwest.</p>
+
+  <dl>
+    <dt>Black bean purses</dt>
+    <dd>Spicy black beans wrapped and baked.</dd>
+  </dl>
+
+</body>
+
+</html>
