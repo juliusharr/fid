@@ -1,17 +1,32 @@
 body {
+  margin: 0;
   font-family: Georgia, serif;
-  margin: 0 15%;
-  background-color: #cdd7ae;
-}
+  line-height: 1.75;
 
-header {
-  padding: 3em 1em 2em;
-  text-align: center;
+  background-color: #cdd78e;
 
-  background-image: url(images/gooseshadow.png), url(images/blackgoose.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 3em bottom, center;
-  background-size: auto, contain;
+  /* layered backgrounds */
+  background-image: 
+    url("images/purpledot.png"),   /* left border */
+    url("images/purpledot.png"),   /* right border */
+    url("images/goose.png"),       /* center goose */
+    url("images/bullseye.png");    /* circles */
 
-  background-color: rgba(255,255,255,.5);
+  background-repeat: 
+    repeat-y,
+    repeat-y,
+    no-repeat,
+    repeat;
+
+  background-position: 
+    left top,
+    right top,
+    center,
+    top left;
+
+  background-attachment: 
+    scroll,
+    scroll,
+    fixed,
+    scroll;
 }
