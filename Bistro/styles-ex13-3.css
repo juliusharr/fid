@@ -1,19 +1,9 @@
 body {
+  margin: 0;
   font-family: Georgia, serif;
   line-height: 1.75;
-  margin: 0 15%;
-  background-color: #cdd7ae;
 
-  background-image: url(images/bullseye.png);
-  background-repeat: repeat-y;
-  background-position: center top;
-}
-
-h1 { color: #993399; }
-h2 { color: hsl(300,65%,30%); }
-
-header {
-  padding: 3em 1em 2em;
-  text-align: center;
-  background-color: rgba(255,255,255,.5);
+  background-color: #cdd78e;
+  background-image: url("images/bullseye.png");
+  background-repeat: repeat;
 }
