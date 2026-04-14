@@ -1,99 +1,25 @@
-/* PAGE BACKGROUND */
-body {
-    background-color: #cdd7ae;
-    background-image: url("images/bullseye.png");
-    background-position: top center;
-    background-attachment: fixed;
-    margin: 0;
-    font-family: Georgia, serif;
-}
-
-/* MAIN CONTENT WIDTH */
-.wrapper {
-    width: 900px;   /* 🔥 THIS WAS YOUR BIGGEST ISSUE */
-    margin: 0 auto;
-}
-
-/* HEADER (BIG WHITE BOX) */
 header {
-    background-color: rgba(255,255,255,0.9);
-    padding: 40px 20px;
+    background-color: rgba(255,255,255,0.85);
+
+    /* 🔥 tighter padding (fixes big white box) */
+    padding: 30px 20px;
+
     text-align: center;
 
-    /* MULTIPLE IMAGES */
+    /* MULTIPLE BACKGROUNDS */
     background-image:
         url("images/gooseshadow.png"),
         url("images/blackgoose.png");
 
     background-repeat: no-repeat, no-repeat;
 
-    /* shadow left bottom, goose centered */
-    background-position: left bottom, center;
+    /* 🔥 PERFECT POSITIONING */
+    background-position:
+        60px bottom,   /* shadow slightly inside, not hugging edge */
+        center;        /* goose perfectly centered */
 
-    background-size: auto, contain;
-}
-
-/* TITLE */
-h1 {
-    color: #993399;
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-/* HEADER TEXT */
-.info {
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-/* NAV LINKS */
-nav a {
-    display: block;
-    color: #993399;
-    text-decoration: none;
-    margin: 4px 0;
-}
-
-/* CONTENT SECTION */
-section {
-    padding: 30px 40px;
-}
-
-/* SECTION HEADINGS */
-h2 {
-    color: #cc6600;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-align: center;
-    margin-top: 40px;
-}
-
-/* INTRO TEXT */
-.intro {
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
-/* MENU ITEM TITLES */
-.item-title {
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-/* HIGHLIGHT LINKS */
-.highlight {
-    color: #993399;
-    font-style: italic;
-}
-
-/* PARAGRAPHS */
-p {
-    line-height: 1.6;
-}
-
-/* 🔥 IMPORTANT: LEFT ALIGN MENU TEXT */
-section p,
-.item-title {
-    text-align: left;
+    /* 🔥 SCALE FIX */
+    background-size:
+        80px,          /* shadow smaller */
+        250px;         /* goose watermark size */
 }
