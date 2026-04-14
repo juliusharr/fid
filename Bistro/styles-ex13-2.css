@@ -1,25 +1,21 @@
 header {
+    width: 800px;
+    margin: 40px auto;
+
     background-color: rgba(255,255,255,0.85);
 
-    /* 🔥 tighter padding (fixes big white box) */
-    padding: 30px 20px;
-
     text-align: center;
+    padding: 25px;
 
-    /* MULTIPLE BACKGROUNDS */
-    background-image:
-        url("images/gooseshadow.png"),
-        url("images/blackgoose.png");
+    /* 🔥 MULTIPLE BACKGROUNDS */
+    background-image: url("images/gooseshadow.png"), url("images/blackgoose.png");
 
+    /* IMPORTANT: order matters */
     background-repeat: no-repeat, no-repeat;
 
-    /* 🔥 PERFECT POSITIONING */
-    background-position:
-        60px bottom,   /* shadow slightly inside, not hugging edge */
-        center;        /* goose perfectly centered */
+    /* 🔥 FIXED POSITIONS */
+    background-position: left bottom, center;
 
-    /* 🔥 SCALE FIX */
-    background-size:
-        80px,          /* shadow smaller */
-        250px;         /* goose watermark size */
+    /* 🔥 FIXED SIZES */
+    background-size: 80px, 250px;
 }
