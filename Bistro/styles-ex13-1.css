@@ -1,65 +1,61 @@
 body {
-  background-color: #cdd7ae;
-  font-family: Georgia, serif;
-  margin: 0;
+    margin: 0;
+    background-color: #CDD7AE;
+    font-family: Georgia, serif;
+    color: #333;
 }
 
-/* main centered layout */
 .wrapper {
-  width: 75%;
-  margin: 40px auto;
-  background-color: #f5f2e9;
-  padding: 40px;
-  text-align: center;
+    width: 700px;
+    margin: 40px auto;
 }
 
-/* title */
+header {
+    background-color: #E6E6D9;
+    text-align: center;
+    padding: 40px;
+}
+
 h1 {
-  color: #993399;
-  font-weight: normal;
-  letter-spacing: 2px;
+    color: #993399;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0;
 }
 
-/* top info */
 .info {
-  color: #6fa7a7;
-  font-size: 14px;
+    color: #66A3A3;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
-/* navigation */
 nav {
-  margin: 20px 0;
+    text-align: center;
+    margin: 20px 0;
 }
 
 nav a {
-  display: block;
-  color: #993399;
-  text-decoration: none;
-  margin: 5px 0;
+    display: block;
+    color: #993399;
+    text-decoration: none;
+    margin: 5px 0;
 }
 
-/* section headers */
 h2 {
-  color: #cc6600;
-  letter-spacing: 5px;
-  margin-top: 40px;
+    text-align: center;
+    color: #CC6600;
+    letter-spacing: 4px;
+    font-size: 16px;
+    margin-top: 40px;
 }
 
-/* intro text */
 .intro {
-  font-style: italic;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
 }
 
-/* menu item titles (green like screenshot) */
 .item-title {
-  color: #4f7f2f;
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-/* paragraph spacing */
-p {
-  max-width: 700px;
-  margin: 10px auto;
-  text-align: left;
+    color: #669933;
+    font-weight: bold;
 }
