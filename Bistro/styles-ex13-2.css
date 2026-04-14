@@ -1,9 +1,9 @@
 body {
     margin: 0;
     font-family: Georgia, serif;
+
     background-color: #c4cf9a;
 
-    /* PERFECT RING PATTERN */
     background-image:
         radial-gradient(circle,
             rgba(255,255,255,0.25) 10%, transparent 11%,
@@ -31,7 +31,6 @@ header {
 
     background-color: rgba(255,255,255,0.6);
 
-    /* BIG FADED GOOSE */
     background-image: url("goose.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -41,7 +40,7 @@ header {
 /* SMALL GOOSE */
 header::before {
     content: "";
-    display: block;
+    position: absolute;
     width: 80px;
     height: 80px;
 
@@ -49,7 +48,6 @@ header::before {
     background-size: contain;
     background-repeat: no-repeat;
 
-    position: relative;
     left: 20px;
     top: 20px;
 }
