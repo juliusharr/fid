@@ -1,71 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Black Goose Bistro • Summer Menu</title>
-
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* BACKGROUND */
-body {
-    font-family: Georgia, serif !important;
-    background-color: #c6cf9a !important;
-    background-image: url("images/bullseye.png") !important;
-    background-position: top center !important;
-    background-attachment: fixed !important;
-}
-
-/* KILL ANY WHITE BOX ANYWHERE */
-header, header *, div, div * {
-    background: transparent !important;
-    background-color: transparent !important;
-    background-image: none !important;
-    box-shadow: none !important;
-    border: none !important;
-}
-
-/* HEADER */
-header {
-    width: 800px;
-    margin: 40px auto;
-    text-align: center;
-}
-
-/* TITLE */
-h1 {
-    color: purple;
-    font-size: 32px;
-}
-
-/* NAV */
-nav a {
-    display: block;
-    color: purple;
-    text-decoration: none;
-}
-
-/* SECTIONS */
-section {
-    width: 800px;
-    margin: 0 auto;
-}
-
-/* SECTION HEADERS */
-h2 {
-    text-align: center;
-    color: #d2691e;
-    letter-spacing: 4px;
-    margin-top: 40px;
-}
-
-/* TAGLINE */
-.tagline {
-    text-align: center;
-    font-style: italic;
-}
-</style>
-
+<link rel="stylesheet" href="styles.css">
 </head>
+
+<body>
+
+<header>
+  <h1>Black Goose Bistro • Summer Menu</h1>
+  <p>Baker's Corner, Seekonk, Massachusetts</p>
+  <p><strong>Hours:</strong> Monday through Thursday: 11 to 9, Friday and Saturday: 11 to midnight</p>
+
+  <nav>
+    <a href="#appetizers">Appetizers</a>
+    <a href="#main">Main Courses</a>
+    <a href="#toasts">Traditional Toasts</a>
+    <a href="#dessert">Dessert Selection</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="appetizers">
+<h2>APPETIZERS</h2>
+<p class="desc">This season, we explore the spicy flavors of the southwest in our appetizer collection.</p>
+
+<h3>Black bean purses</h3>
+<p>Spicy black bean and a blend of mexican cheeses wrapped in sheets of phyllo and baked until golden. $3.95</p>
+
+<h3>Southwestern napoleons with lump crab — <em>new item!</em></h3>
+<p>Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. $7.95</p>
+</section>
+
+<section id="main">
+<h2>MAIN COURSES</h2>
+<p class="desc">Big, bold flavors are the name of the game this summer. Allow us to assist you with finding the perfect wine.</p>
+
+<h3>Jerk rotisserie chicken with fried plantains — <em>new item!</em></h3>
+<p>Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and fresh mango. <strong>Very spicy.</strong> $12.95</p>
+
+<h3>Shrimp sate kebabs with peanut sauce</h3>
+<p>Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then grilled to perfection. Served with spicy peanut sauce and jasmine rice. $12.95</p>
+
+<h3>Grilled skirt steak with mushroom fricassee</h3>
+<p>Flavorful skirt steak marinated in asian flavors grilled as you like it. Served over a blend of sauteed wild mushrooms with a side of blue cheese mashed potatoes. $16.95</p>
+</section>
+
+<section id="toasts">
+<h2>TRADITIONAL TOASTS</h2>
+<p class="desc">The ultimate comfort food, our traditional toast recipes are adapted from <span>The Whitehouse Cookbook</span> published in 1887.</p>
+
+<h3>Cream toast</h3>
+<p>Simple cream sauce over highest quality toasted bread, baked daily. $3.95</p>
+
+<h3>Mushroom toast</h3>
+<p>Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. $6.95</p>
+
+<h3>Nun's toast</h3>
+<p>Onions and hard-boiled eggs in a cream sauce over buttered hot toast. $6.95</p>
+
+<h3>Apple toast</h3>
+<p>Sweet, cinnamon stewed apples over delicious buttery grilled bread. $6.95</p>
+</section>
+
+<section id="dessert">
+<h2>DESSERT SELECTION</h2>
+<p class="desc">Be sure to save room for our desserts, made daily by our own <span>Johnson & Wales</span> trained pastry chef.</p>
+
+<h3>Lemon chiffon cake — <em>new item!</em></h3>
+<p>Light and citrus flavored sponge cake with buttercream frosting as light as a cloud. $2.95</p>
+
+<h3>Molten chocolate cake</h3>
+<p>Bubba's special dark chocolate cake with a warm, molten center. Served with or without a splash of almond liqueur. $3.95</p>
+
+<p class="footnote">* We are required to warn you that undercooked food is a health risk.</p>
+</section>
+
+</main>
+
+</body>
+</html>
