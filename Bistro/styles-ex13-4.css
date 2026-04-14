@@ -1,16 +1,6 @@
-body {
-  font-family: Georgia, serif;
-  line-height: 1.75;
-  margin: 0 15%;
-  background-color: #cdd7ae;
-
-  background-image: url(images/bullseye.png);
-  background-repeat: repeat-y;
-  background-position: center top;
-}
-
 header {
-  padding: 3em 1em 2em;
-  text-align: center;
-  background-color: rgba(255,255,255,.5);
+  background-image: url("images/purpledot.png");
+  background-repeat: repeat-x;
+  background-position: top;
+  padding-top: 40px;
 }
