@@ -1,24 +1,6 @@
 body {
+  margin: 0;
   font-family: Georgia, serif;
   line-height: 1.75;
-  margin: 0 15%;
-  background-color: #cdd7ae;
-}
-
-h1 {
-  font: 400 2.5rem "Julius Sans One", Verdana, sans-serif;
-  color: #993399;
-  text-shadow: .1em .1em .05em gainsboro;
-}
-
-h2 {
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  color: hsl(300, 65%, 30%);
-}
-
-header {
-  padding: 3em 1em 2em;
-  text-align: center;
+  background-color: #cdd78e;
 }
