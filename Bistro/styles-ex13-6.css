@@ -1,11 +1,14 @@
 body {
+  font-family: Georgia, serif;
+  margin: 0 15% 0;
   background-color: #cdd7ae;
 }
 
 header {
+  padding: 3em 1em 2em;
+  text-align: center;
+
   background-image: url(images/purpledot.png);
   background-repeat: repeat-x;
+  background-color: rgba(255 255 255 / .5);
 }
-
-h1 { color: #993399; }
-h2 { color: hsl(299, 65%, 30%); }
