@@ -1,23 +1,93 @@
 body {
     margin: 0;
     font-family: Georgia, serif;
-
     background-color: #c4cf9a;
 
+    /* PERFECT RING PATTERN */
     background-image:
         radial-gradient(circle,
-            rgba(255,255,255,0.3) 10%, transparent 11%,
-            rgba(255,255,255,0.3) 20%, transparent 21%,
-            rgba(255,255,255,0.3) 30%, transparent 31%,
-            rgba(255,255,255,0.3) 40%, transparent 41%
+            rgba(255,255,255,0.25) 10%, transparent 11%,
+            rgba(255,255,255,0.25) 20%, transparent 21%,
+            rgba(255,255,255,0.25) 30%, transparent 31%,
+            rgba(255,255,255,0.25) 40%, transparent 41%
         ),
         radial-gradient(circle,
-            rgba(255,255,255,0.3) 10%, transparent 11%,
-            rgba(255,255,255,0.3) 20%, transparent 21%,
-            rgba(255,255,255,0.3) 30%, transparent 31%,
-            rgba(255,255,255,0.3) 40%, transparent 41%
+            rgba(255,255,255,0.25) 10%, transparent 11%,
+            rgba(255,255,255,0.25) 20%, transparent 21%,
+            rgba(255,255,255,0.25) 30%, transparent 31%,
+            rgba(255,255,255,0.25) 40%, transparent 41%
         );
 
     background-size: 200px 200px;
     background-position: 0 0, 100px 100px;
+}
+
+/* HEADER */
+header {
+    width: 700px;
+    margin: 40px auto;
+    padding: 40px;
+    text-align: center;
+
+    background-color: rgba(255,255,255,0.6);
+
+    /* BIG FADED GOOSE */
+    background-image: url("goose.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+
+/* SMALL GOOSE */
+header::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+
+    background-image: url("goose.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+/* TEXT */
+h1 {
+    color: purple;
+}
+
+nav a {
+    display: block;
+    color: purple;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #d96b00;
+    letter-spacing: 4px;
+    margin-top: 40px;
+}
+
+.desc {
+    text-align: center;
+    font-style: italic;
+}
+
+span {
+    color: purple;
+}
+
+.footnote {
+    font-size: 12px;
+    margin-top: 20px;
 }
