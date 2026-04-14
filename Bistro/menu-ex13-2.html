@@ -1,33 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Black Goose Bistro • Summer Menu</title>
 
 <style>
-body {
-    font-family: Georgia, serif;
-    background-color: #c6cf9a;
-    background-image: url("images/bullseye.png");
-    background-position: top center;
-    background-attachment: fixed;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* TRANSPARENT HEADER */
+/* BACKGROUND */
+body {
+    font-family: Georgia, serif !important;
+    background-color: #c6cf9a !important;
+    background-image: url("images/bullseye.png") !important;
+    background-position: top center !important;
+    background-attachment: fixed !important;
+}
+
+/* KILL ANY WHITE BOX ANYWHERE */
+header, header *, div, div * {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* HEADER */
 header {
     width: 800px;
     margin: 40px auto;
-    padding: 20px 0;
     text-align: center;
-    background: none;
 }
 
 /* TITLE */
 h1 {
     color: purple;
     font-size: 32px;
-    margin-bottom: 10px;
 }
 
 /* NAV */
@@ -35,10 +45,15 @@ nav a {
     display: block;
     color: purple;
     text-decoration: none;
-    margin: 3px 0;
 }
 
-/* SECTION HEADINGS */
+/* SECTIONS */
+section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* SECTION HEADERS */
 h2 {
     text-align: center;
     color: #d2691e;
@@ -51,103 +66,6 @@ h2 {
     text-align: center;
     font-style: italic;
 }
-
-/* CONTENT */
-section {
-    width: 800px;
-    margin: 0 auto;
-}
-
-/* MENU ITEMS */
-h3 {
-    font-weight: bold;
-}
-
-.price {
-    font-style: italic;
-}
-
-/* FOOTER */
-footer {
-    width: 800px;
-    margin: 40px auto;
-    font-size: 12px;
-}
 </style>
 
 </head>
-
-<body>
-
-<header>
-  <h1>Black Goose Bistro • Summer Menu</h1>
-  <p>Baker's Corner, Seekonk, Massachusetts</p>
-  <p><strong>Hours:</strong> Monday through Thursday: 11 to 9, Friday and Saturday: 11 to midnight</p>
-
-  <nav>
-    <a href="#appetizers">Appetizers</a>
-    <a href="#main">Main Courses</a>
-    <a href="#toasts">Traditional Toasts</a>
-    <a href="#dessert">Dessert Selection</a>
-  </nav>
-</header>
-
-<section id="appetizers">
-<h2>APPETIZERS</h2>
-<p class="tagline">This season, we explore the spicy flavors of the southwest in our appetizer collection.</p>
-
-<h3>Black bean purses</h3>
-<p>Spicy black bean and a blend of mexican cheeses wrapped in sheets of phyllo and baked until golden. <span class="price">$3.95</span></p>
-
-<h3>Southwestern napoleons with lump crab — <em>new item!</em></h3>
-<p>Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. <span class="price">$7.95</span></p>
-</section>
-
-<section id="main">
-<h2>MAIN COURSES</h2>
-<p class="tagline">Big, bold flavors are the name of the game this summer. Allow us to assist you with finding the perfect wine.</p>
-
-<h3>Jerk rotisserie chicken with fried plantains — <em>new item!</em></h3>
-<p>Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and fresh mango. <strong>Very spicy.</strong> <span class="price">$12.95</span></p>
-
-<h3>Shrimp sate kebabs with peanut sauce</h3>
-<p>Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then grilled to perfection. Served with spicy peanut sauce and jasmine rice. <span class="price">$12.95</span></p>
-
-<h3>Grilled skirt steak with mushroom fricassee</h3>
-<p>Flavorful skirt steak marinated in asian flavors grilled as you like it. Served over a blend of sauteed wild mushrooms with a side of blue cheese mashed potatoes. <span class="price">$16.95</span></p>
-</section>
-
-<section id="toasts">
-<h2>TRADITIONAL TOASTS</h2>
-<p class="tagline">The ultimate comfort food, our traditional toast recipes are adapted from <em>The Whitehouse Cookbook</em> published in 1887.</p>
-
-<h3>Cream toast</h3>
-<p>Simple cream sauce over highest quality toasted bread, baked daily. <span class="price">$3.95</span></p>
-
-<h3>Mushroom toast</h3>
-<p>Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. <span class="price">$6.95</span></p>
-
-<h3>Nun's toast</h3>
-<p>Onions and hard-boiled eggs in a cream sauce over buttered hot toast. <span class="price">$6.95</span></p>
-
-<h3>Apple toast</h3>
-<p>Sweet, cinnamon stewed apples over delicious buttery grilled bread. <span class="price">$6.95</span></p>
-</section>
-
-<section id="dessert">
-<h2>DESSERT SELECTION</h2>
-<p class="tagline">Be sure to save room for our desserts, made daily by our own <em>Johnson & Wales</em> trained pastry chef.</p>
-
-<h3>Lemon chiffon cake — <em>new item!</em></h3>
-<p>Light and citrus flavored sponge cake with buttercream frosting as light as a cloud. <span class="price">$2.95</span></p>
-
-<h3>Molten chocolate cake</h3>
-<p>Bubba's special dark chocolate cake with a warm, molten center. Served with or without a splash of almond liqueur. <span class="price">$3.95</span></p>
-</section>
-
-<footer>
-<p>* We are required to warn you that undercooked food is a health risk.</p>
-</footer>
-
-</body>
-</html>
