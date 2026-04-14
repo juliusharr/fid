@@ -1,26 +1,26 @@
 body {
-    font-family: Georgia, serif;
     margin: 0;
-    background-color: #c4cf9a;
+    font-family: Georgia, serif;
 
+    background-color: #c4cf9a;
     background-image:
-        radial-gradient(circle, rgba(255,255,255,0.25) 20%, transparent 20%),
-        radial-gradient(circle, rgba(255,255,255,0.25) 20%, transparent 20%);
+        radial-gradient(circle, rgba(255,255,255,0.3) 20%, transparent 20%),
+        radial-gradient(circle, rgba(255,255,255,0.3) 20%, transparent 20%);
     background-size: 200px 200px;
     background-position: 0 0, 100px 100px;
 }
 
-header {
-    width: 800px;
+.header-box {
+    width: 700px;
     margin: 40px auto;
-    padding: 25px;
+    padding: 30px;
     text-align: center;
+
     background-color: rgba(255,255,255,0.65);
 }
 
 h1 {
     color: purple;
-    font-size: 32px;
     margin-bottom: 10px;
 }
 
@@ -28,11 +28,11 @@ nav a {
     display: block;
     color: purple;
     text-decoration: none;
-    margin: 5px 0;
+    margin-top: 5px;
 }
 
 main {
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -57,6 +57,6 @@ span {
 }
 
 .footnote {
-    margin-top: 20px;
     font-size: 12px;
+    margin-top: 20px;
 }
