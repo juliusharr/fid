@@ -1,5 +1,3 @@
-
-/* PAGE BACKGROUND (CIRCLES) */
 body {
     font-family: Georgia, serif;
     background-color: #c6cf9a;
@@ -9,13 +7,23 @@ body {
     margin: 0;
 }
 
-/* TRANSPARENT HEADER */
+/* FORCE TRANSPARENT HEADER */
 header {
     width: 800px;
     margin: 40px auto;
     padding: 20px 0;
     text-align: center;
-    background: transparent;
+
+    background: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* REMOVE ANY POSSIBLE WHITE BOX FROM CHILD ELEMENTS */
+header * {
+    background: transparent !important;
 }
 
 /* TITLE */
@@ -25,7 +33,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* NAV LINKS */
+/* NAV */
 nav a {
     display: block;
     color: purple;
@@ -33,7 +41,7 @@ nav a {
     margin: 3px 0;
 }
 
-/* SECTION TITLES */
+/* SECTION HEADINGS */
 h2 {
     text-align: center;
     color: #d2691e;
@@ -41,7 +49,7 @@ h2 {
     margin-top: 40px;
 }
 
-/* SUBTEXT */
+/* TAGLINE */
 .tagline {
     text-align: center;
     font-style: italic;
@@ -53,17 +61,15 @@ section {
     margin: 0 auto;
 }
 
-/* ITEM TITLES */
+/* MENU ITEMS */
 h3 {
     font-weight: bold;
 }
 
-/* PRICES */
 .price {
     font-style: italic;
 }
 
-/* FOOTER */
 footer {
     width: 800px;
     margin: 40px auto;
