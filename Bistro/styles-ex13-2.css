@@ -1,55 +1,71 @@
+
+/* PAGE BACKGROUND (CIRCLES) */
 body {
-    margin: 0;
     font-family: Georgia, serif;
-    background-color: #cfd8a5;
+    background-color: #c6cf9a;
     background-image: url("images/bullseye.png");
     background-position: top center;
     background-attachment: fixed;
-    text-align: center;
+    margin: 0;
 }
 
+/* TRANSPARENT HEADER */
 header {
     width: 800px;
     margin: 40px auto;
-    padding: 30px;
+    padding: 20px 0;
+    text-align: center;
     background: transparent;
-    background-image: none;
 }
 
+/* TITLE */
 h1 {
     color: purple;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
+/* NAV LINKS */
 nav a {
     display: block;
     color: purple;
     text-decoration: none;
-    margin: 5px 0;
+    margin: 3px 0;
 }
 
-section {
-    width: 800px;
-    margin: 0 auto;
-    text-align: left;
-}
-
+/* SECTION TITLES */
 h2 {
     text-align: center;
-    color: #cc6600;
-    letter-spacing: 6px;
+    color: #d2691e;
+    letter-spacing: 4px;
     margin-top: 40px;
 }
 
-.intro {
+/* SUBTEXT */
+.tagline {
     text-align: center;
     font-style: italic;
 }
 
-.highlight {
-    color: purple;
+/* CONTENT WIDTH */
+section {
+    width: 800px;
+    margin: 0 auto;
 }
 
-.warning {
+/* ITEM TITLES */
+h3 {
+    font-weight: bold;
+}
+
+/* PRICES */
+.price {
+    font-style: italic;
+}
+
+/* FOOTER */
+footer {
+    width: 800px;
+    margin: 40px auto;
     font-size: 12px;
 }
