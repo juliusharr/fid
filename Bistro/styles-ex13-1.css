@@ -1,57 +1,5 @@
 body {
-  margin: 0;
+  background-color: #cdd78e;
   font-family: Georgia, serif;
   line-height: 1.75;
-
-  background-color: #cdd78e;
-  background-image: url("images/bullseye.png");
-}
-
-/* main centered box */
-#container {
-  width: 900px;
-  margin: 40px auto;
-  padding: 40px;
-
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-/* header */
-header {
-  text-align: center;
-}
-
-/* title */
-h1 {
-  color: #7a2c8f;
-}
-
-/* section headings */
-h2 {
-  text-align: center;
-  letter-spacing: 6px;
-  color: #d2691e;
-}
-
-/* nav */
-nav {
-  text-align: center;
-  margin: 20px 0;
-}
-
-nav a {
-  display: block;
-  color: #7a2c8f;
-  text-decoration: none;
-  margin: 5px 0;
-}
-
-/* spacing */
-p {
-  margin-bottom: 15px;
-}
-
-/* highlight links */
-.highlight {
-  color: #7a2c8f;
 }
