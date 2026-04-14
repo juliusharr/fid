@@ -1,84 +1,69 @@
-/* BODY BACKGROUND (bullseye pattern) */
+/* PAGE BACKGROUND */
 body {
-    margin: 0;
-    background-color: #CDD7AE;
-    background-image: url(images/bullseye.png);
+    background-color: #cdd7ae;
+
+    /* STEP 7 */
+    background-image: url("images/bullseye.png");
+
+    /* STEP 8 */
     background-position: top center;
+
+    /* STEP 9 */
     background-attachment: fixed;
+
+    margin: 0;
     font-family: Georgia, serif;
-    color: #333;
 }
 
-/* MAIN WRAPPER */
+/* CENTERED CONTENT */
 .wrapper {
     width: 700px;
     margin: 40px auto;
 }
 
-/* HEADER WITH MULTIPLE BACKGROUND IMAGES */
+/* HEADER */
 header {
-    background-color: #E6E6D9;
-    text-align: center;
+    background-color: rgba(255,255,255,0.8);
     padding: 40px;
+    text-align: center;
 
-    /* MULTIPLE IMAGES */
-    background-image: 
-        url(images/gooseshadow.png),
-        url(images/blackgoose.png);
+    /* STEP 12 (MULTIPLE IMAGES) */
+    background-image:
+        url("images/gooseshadow.png"),
+        url("images/blackgoose.png");
 
     background-repeat: no-repeat, no-repeat;
 
-    background-position: left bottom, center;
+    /* first = shadow, second = goose */
+    background-position: 3em bottom, center;
 
     background-size: auto, contain;
 }
 
-/* TITLE */
+/* STEP 10 (PURPLE DOT STRIP — TEMP, comment out when done testing) */
+/*
+header {
+    background-image: url("images/purpledot.png");
+    background-repeat: repeat-x;
+}
+*/
+
+/* TEXT STYLING */
 h1 {
     color: #993399;
-    font-weight: normal;
-    letter-spacing: 2px;
-    margin: 0;
 }
 
-/* HEADER TEXT */
-.info {
-    color: #66A3A3;
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-/* NAV */
-nav {
-    text-align: center;
-    margin: 20px 0;
-}
-
-nav a {
-    display: block;
-    color: #993399;
-    text-decoration: none;
-    margin: 5px 0;
-}
-
-/* SECTION HEADINGS */
 h2 {
+    color: #cc6600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     text-align: center;
-    color: #CC6600;
-    letter-spacing: 4px;
-    font-size: 16px;
-    margin-top: 40px;
 }
 
-/* INTRO TEXT */
-.intro {
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 20px;
+h3 {
+    color: #336633;
 }
 
-/* MENU ITEM TITLES */
-.item-title {
-    color: #669933;
-    font-weight: bold;
+p {
+    line-height: 1.5;
 }
