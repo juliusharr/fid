@@ -3,58 +3,21 @@ body {
     font-family: Georgia, serif;
 
     background-color: #c4cf9a;
+
     background-image:
-        radial-gradient(circle, rgba(255,255,255,0.3) 20%, transparent 20%),
-        radial-gradient(circle, rgba(255,255,255,0.3) 20%, transparent 20%);
+        radial-gradient(circle,
+            rgba(255,255,255,0.3) 10%, transparent 11%,
+            rgba(255,255,255,0.3) 20%, transparent 21%,
+            rgba(255,255,255,0.3) 30%, transparent 31%,
+            rgba(255,255,255,0.3) 40%, transparent 41%
+        ),
+        radial-gradient(circle,
+            rgba(255,255,255,0.3) 10%, transparent 11%,
+            rgba(255,255,255,0.3) 20%, transparent 21%,
+            rgba(255,255,255,0.3) 30%, transparent 31%,
+            rgba(255,255,255,0.3) 40%, transparent 41%
+        );
+
     background-size: 200px 200px;
     background-position: 0 0, 100px 100px;
-}
-
-header {
-    width: 700px;
-    margin: 40px auto;
-    padding: 30px;
-    text-align: center;
-    background-color: rgba(255,255,255,0.6);
-}
-
-h1 {
-    color: purple;
-}
-
-nav a {
-    display: block;
-    color: purple;
-    text-decoration: none;
-    margin: 5px 0;
-}
-
-main {
-    width: 700px;
-    margin: 0 auto;
-}
-
-h2 {
-    text-align: center;
-    color: #d96b00;
-    letter-spacing: 4px;
-    margin-top: 40px;
-}
-
-.desc {
-    text-align: center;
-    font-style: italic;
-}
-
-h3 {
-    margin-top: 20px;
-}
-
-span {
-    color: purple;
-}
-
-.footnote {
-    font-size: 12px;
-    margin-top: 20px;
 }
