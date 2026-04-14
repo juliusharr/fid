@@ -1,62 +1,78 @@
-body {
-  margin: 0;
-  font-family: Georgia, serif;
-  background-color: #2f4f4f;
-  color: #ffffff;
-}
+<head>
+  <title>Black Goose Bistro</title>
 
-header {
-  background-color: #f4efe4;
-  text-align: center;
-  padding: 40px 20px;
-}
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Julius+Sans+One&display=swap" rel="stylesheet">
 
-header img {
-  width: 120px;
-  display: block;
-  margin: 0 auto 10px;
-}
+  <style>
+    html {
+      font-size: 100%;
+    }
 
-h1 {
-  margin: 0;
-  letter-spacing: 4px;
-  color: #2f4f4f;
-  font-size: 1.6em;
-}
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      line-height: 1.75;
+      background-color: #ffffff;
+      color: #000000;
+    }
 
-nav {
-  margin: 30px 0;
-}
+    h1 {
+      font: bold 1.5em "Marko One", Georgia, serif;
+      color: olive;
+      text-shadow: .1em .1em .05em gainsboro;
+      margin: 20px 0;
+    }
 
-nav ul {
-  list-style-type: disc;
-  padding-left: 60px;
-}
+    h1, h2, #info {
+      text-align: center;
+    }
 
-nav li {
-  margin: 10px 0;
-}
+    h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: .5em;
+      color: cadetblue;
+      margin-top: 40px;
+    }
 
-nav a {
-  color: #00ffff;
-  font-weight: bold;
-}
+    h2 + p {
+      text-align: center;
+      font-style: italic;
+    }
 
-nav a:hover {
-  color: #ffa500;
-}
+    dt {
+      font-weight: bold;
+      color: olivedrab;
+    }
 
-main {
-  width: 70%;
-  margin: 40px auto;
-  text-align: center;
-}
+    dt strong {
+      color: tomato;
+    }
 
-h2 {
-  color: #ffa500;
-  margin-top: 40px;
-}
+    #info {
+      color: cadetblue;
+    }
 
-p {
-  line-height: 1.6;
-}
+    #info p {
+      font-style: italic;
+    }
+
+    .price {
+      font-style: italic;
+      color: gray;
+    }
+
+    .label {
+      font-variant: small-caps;
+      font-style: normal;
+    }
+
+    p.warning {
+      font-size: small;
+      color: tomato;
+    }
+  </style>
+</head>
