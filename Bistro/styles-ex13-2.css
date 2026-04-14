@@ -1,77 +1,62 @@
 body {
     font-family: Georgia, serif;
-    background-color: #c6cf9a;
-    background-image: url("images/bullseye.png");
-    background-position: top center;
-    background-attachment: fixed;
     margin: 0;
+    background-color: #c4cf9a;
+
+    background-image:
+        radial-gradient(circle, rgba(255,255,255,0.25) 20%, transparent 20%),
+        radial-gradient(circle, rgba(255,255,255,0.25) 20%, transparent 20%);
+    background-size: 200px 200px;
+    background-position: 0 0, 100px 100px;
 }
 
-/* FORCE TRANSPARENT HEADER */
 header {
     width: 800px;
     margin: 40px auto;
-    padding: 20px 0;
+    padding: 25px;
     text-align: center;
-
-    background: none !important;
-    background-color: transparent !important;
-    background-image: none !important;
-    box-shadow: none !important;
-    border: none !important;
+    background-color: rgba(255,255,255,0.65);
 }
 
-/* REMOVE ANY POSSIBLE WHITE BOX FROM CHILD ELEMENTS */
-header * {
-    background: transparent !important;
-}
-
-/* TITLE */
 h1 {
     color: purple;
     font-size: 32px;
     margin-bottom: 10px;
 }
 
-/* NAV */
 nav a {
     display: block;
     color: purple;
     text-decoration: none;
-    margin: 3px 0;
+    margin: 5px 0;
 }
 
-/* SECTION HEADINGS */
-h2 {
-    text-align: center;
-    color: #d2691e;
-    letter-spacing: 4px;
-    margin-top: 40px;
-}
-
-/* TAGLINE */
-.tagline {
-    text-align: center;
-    font-style: italic;
-}
-
-/* CONTENT WIDTH */
-section {
+main {
     width: 800px;
     margin: 0 auto;
 }
 
-/* MENU ITEMS */
-h3 {
-    font-weight: bold;
+h2 {
+    text-align: center;
+    color: #d96b00;
+    letter-spacing: 4px;
+    margin-top: 40px;
 }
 
-.price {
+.desc {
+    text-align: center;
     font-style: italic;
 }
 
-footer {
-    width: 800px;
-    margin: 40px auto;
+h3 {
+    margin-top: 20px;
+}
+
+span {
+    color: purple;
+}
+
+.footnote {
+    margin-top: 20px;
     font-size: 12px;
 }
