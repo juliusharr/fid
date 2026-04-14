@@ -1,0 +1,10 @@
+header {
+  background-image: url(images/blackgoose.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+body { background-color: #cdd7ae; }
+h1 { color: #993399; }
+h2 { color: hsl(299, 65%, 30%); }
