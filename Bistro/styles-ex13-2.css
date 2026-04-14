@@ -8,16 +8,16 @@ body {
     font-family: Georgia, serif;
 }
 
-/* CENTER CONTENT */
+/* MAIN CONTENT WIDTH */
 .wrapper {
-    width: 700px;
+    width: 900px;   /* 🔥 THIS WAS YOUR BIGGEST ISSUE */
     margin: 0 auto;
 }
 
-/* HEADER */
+/* HEADER (BIG WHITE BOX) */
 header {
-    background-color: rgba(255,255,255,0.85);
-    padding: 40px;
+    background-color: rgba(255,255,255,0.9);
+    padding: 40px 20px;
     text-align: center;
 
     /* MULTIPLE IMAGES */
@@ -26,7 +26,10 @@ header {
         url("images/blackgoose.png");
 
     background-repeat: no-repeat, no-repeat;
-    background-position: 3em bottom, center;
+
+    /* shadow left bottom, goose centered */
+    background-position: left bottom, center;
+
     background-size: auto, contain;
 }
 
@@ -43,31 +46,26 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* NAV */
+/* NAV LINKS */
 nav a {
     display: block;
     color: #993399;
     text-decoration: none;
-    margin: 5px 0;
+    margin: 4px 0;
 }
 
-/* SECTION AREA */
+/* CONTENT SECTION */
 section {
-    padding: 40px;
+    padding: 30px 40px;
 }
 
-/* HEADINGS */
+/* SECTION HEADINGS */
 h2 {
     color: #cc6600;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
     margin-top: 40px;
-}
-
-.item-title {
-    font-weight: bold;
-    margin-top: 15px;
 }
 
 /* INTRO TEXT */
@@ -77,13 +75,25 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* HIGHLIGHT TEXT */
+/* MENU ITEM TITLES */
+.item-title {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* HIGHLIGHT LINKS */
 .highlight {
     color: #993399;
     font-style: italic;
 }
 
-/* GENERAL TEXT */
+/* PARAGRAPHS */
 p {
     line-height: 1.6;
+}
+
+/* 🔥 IMPORTANT: LEFT ALIGN MENU TEXT */
+section p,
+.item-title {
+    text-align: left;
 }
