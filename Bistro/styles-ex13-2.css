@@ -1,20 +1,70 @@
+/* PAGE BACKGROUND */
+body {
+    background-color: #cdd7ae;
+    background-image: url("images/bullseye.png");
+    background-position: top center;
+    background-attachment: fixed;
+
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+/* HEADER BOX */
 header {
     width: 800px;
     margin: 40px auto;
+    padding: 30px;
+
+    text-align: center;
 
     background-color: rgba(255,255,255,0.85);
 
-    text-align: center;
-    padding: 25px;
-
-    /* TWO BACKGROUNDS */
+    /* MULTIPLE IMAGES */
     background-image: url("images/gooseshadow.png"), url("images/blackgoose.png");
-
     background-repeat: no-repeat, no-repeat;
 
-    /* ✅ THIS IS THE FIX */
-    background-position: left 20px bottom 20px, center;
+    /* POSITION (THIS IS THE KEY FIX) */
+    background-position: center, left 40px bottom 30px;
 
-    /* size of images */
-    background-size: 80px, 300px;
+    /* SIZE */
+    background-size: 300px, 90px;
+}
+
+/* TITLE */
+h1 {
+    color: purple;
+}
+
+/* NAV LINKS */
+nav a {
+    color: purple;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* SECTION HEADINGS */
+h2 {
+    text-align: center;
+    color: #cc6600;
+    letter-spacing: 3px;
+}
+
+/* INTRO TEXT */
+.intro {
+    text-align: center;
+    font-style: italic;
+}
+
+/* HIGHLIGHT LINKS */
+.highlight {
+    color: purple;
+    font-style: italic;
+}
+
+/* WARNING */
+.warning {
+    font-size: 12px;
 }
