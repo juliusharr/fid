@@ -1,69 +1,89 @@
 /* PAGE BACKGROUND */
 body {
     background-color: #cdd7ae;
-
-    /* STEP 7 */
     background-image: url("images/bullseye.png");
-
-    /* STEP 8 */
     background-position: top center;
-
-    /* STEP 9 */
     background-attachment: fixed;
-
     margin: 0;
     font-family: Georgia, serif;
 }
 
-/* CENTERED CONTENT */
+/* CENTER CONTENT */
 .wrapper {
     width: 700px;
-    margin: 40px auto;
+    margin: 0 auto;
 }
 
 /* HEADER */
 header {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.85);
     padding: 40px;
     text-align: center;
 
-    /* STEP 12 (MULTIPLE IMAGES) */
+    /* MULTIPLE IMAGES */
     background-image:
         url("images/gooseshadow.png"),
         url("images/blackgoose.png");
 
     background-repeat: no-repeat, no-repeat;
-
-    /* first = shadow, second = goose */
     background-position: 3em bottom, center;
-
     background-size: auto, contain;
 }
 
-/* STEP 10 (PURPLE DOT STRIP — TEMP, comment out when done testing) */
-/*
-header {
-    background-image: url("images/purpledot.png");
-    background-repeat: repeat-x;
-}
-*/
-
-/* TEXT STYLING */
+/* TITLE */
 h1 {
     color: #993399;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
+/* HEADER TEXT */
+.info {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* NAV */
+nav a {
+    display: block;
+    color: #993399;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+/* SECTION AREA */
+section {
+    padding: 40px;
+}
+
+/* HEADINGS */
 h2 {
     color: #cc6600;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-align: center;
+    margin-top: 40px;
 }
 
-h3 {
-    color: #336633;
+.item-title {
+    font-weight: bold;
+    margin-top: 15px;
 }
 
+/* INTRO TEXT */
+.intro {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* HIGHLIGHT TEXT */
+.highlight {
+    color: #993399;
+    font-style: italic;
+}
+
+/* GENERAL TEXT */
 p {
-    line-height: 1.5;
+    line-height: 1.6;
 }
