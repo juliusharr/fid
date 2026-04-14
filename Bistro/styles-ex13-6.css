@@ -1,0 +1,11 @@
+body {
+  background-color: #cdd7ae;
+}
+
+header {
+  background-image: url(images/purpledot.png);
+  background-repeat: repeat-x;
+}
+
+h1 { color: #993399; }
+h2 { color: hsl(299, 65%, 30%); }
