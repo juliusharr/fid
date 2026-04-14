@@ -1,8 +1,84 @@
+/* BODY BACKGROUND (bullseye pattern) */
 body {
-  margin: 0;
-  font-family: Georgia, serif;
-  line-height: 1.75;
+    margin: 0;
+    background-color: #CDD7AE;
+    background-image: url(images/bullseye.png);
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: Georgia, serif;
+    color: #333;
+}
 
-  background-color: #cdd78e;
-  background-image: url("images/bullseye.png");
+/* MAIN WRAPPER */
+.wrapper {
+    width: 700px;
+    margin: 40px auto;
+}
+
+/* HEADER WITH MULTIPLE BACKGROUND IMAGES */
+header {
+    background-color: #E6E6D9;
+    text-align: center;
+    padding: 40px;
+
+    /* MULTIPLE IMAGES */
+    background-image: 
+        url(images/gooseshadow.png),
+        url(images/blackgoose.png);
+
+    background-repeat: no-repeat, no-repeat;
+
+    background-position: left bottom, center;
+
+    background-size: auto, contain;
+}
+
+/* TITLE */
+h1 {
+    color: #993399;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* HEADER TEXT */
+.info {
+    color: #66A3A3;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    display: block;
+    color: #993399;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+/* SECTION HEADINGS */
+h2 {
+    text-align: center;
+    color: #CC6600;
+    letter-spacing: 4px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+/* INTRO TEXT */
+.intro {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* MENU ITEM TITLES */
+.item-title {
+    color: #669933;
+    font-weight: bold;
 }
