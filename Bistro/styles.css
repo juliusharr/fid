@@ -1,14 +1,69 @@
 body {
-  font-family: Georgia, serif;
+  font-family: 'Poppins', Georgia, serif;
   line-height: 1.75;
+  background-color: #355f5b;
+  margin: 0;
+  text-align: center;
+  color: white;
 }
 
 h1 {
   font: 400 2.5rem "Julius Sans One", Verdana, sans-serif;
+  letter-spacing: 5px;
+  color: #355f5b;
+  margin: 0;
 }
 
 h2 {
   font-size: 1rem;
+  color: orange;
+}
+
+header {
+  background-color: #e6dccb;
+  padding: 2em 0;
+}
+
+nav {
+  margin: 2em 0;
+}
+
+nav a {
+  color: #5ee3ff;
+  margin: 0 20px;
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer {
+  border-top: 1px solid #5ee3ff;
+  margin-top: 3em;
+  padding: 1.5em 0;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 15px;
 }
 
 dt {
