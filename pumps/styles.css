@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: #e63946;
+  padding: 40px;
+}
+
+nav {
+  background: black;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #e63946;
+}
+
+section {
+  padding: 40px;
+}
+
+img {
+  width: 80%;
+  max-width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: black;
+}
